@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @Table(name = "departments")
 @Data
 @NoArgsConstructor
-public class Department extends BaseEntity {
+public class Department  {
     @Id
     private String department;
     private String division;
